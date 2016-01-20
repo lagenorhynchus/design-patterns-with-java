@@ -5,7 +5,7 @@
 (deftype Bookshelf [books]
   clojure.lang.Seqable
   (seq [this]
-    (seq (.books this))))
+    (seq books)))
 
 (defn -main [& args]
   (let [bookshelf (->Bookshelf [(->Book "Around the World in 80 Days")
