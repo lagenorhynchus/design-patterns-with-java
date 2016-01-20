@@ -3,9 +3,7 @@ package chapter01
 case class Book(name: String)
 
 class Bookshelf(books: Book*) extends Traversable[Book] {
-  def foreach[U](f: Book => U) = {
-    books.foreach(f)
-  }
+  def foreach[U](f: Book => U) = books.foreach(f)
 }
 
 object Main {
