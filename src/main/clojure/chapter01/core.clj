@@ -13,4 +13,4 @@
                                 (->Book "Cinderella")
                                 (->Book "Daddy-Long-Legs")])]
     (doseq [book bookshelf]
-      (println (.name book)))))
+      (println (:name book)))))
