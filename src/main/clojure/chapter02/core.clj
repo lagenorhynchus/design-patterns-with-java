@@ -21,11 +21,11 @@
   (get-value [this key]
     (.. properties (getProperty key))))
 
-(defn fileProperties []
+(defn file-properties []
   (->FileProperties (Properties.)))
 
 (defn -main [& args]
-  (doto (fileProperties)
+  (doto (file-properties)
         (read-from-file "file.txt")
         (set-value "month" "4")
         (set-value "day" "21")
