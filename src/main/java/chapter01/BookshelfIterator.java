@@ -9,10 +9,12 @@ public class BookshelfIterator implements Iterator<Book> {
     this.bookshelf = bookshelf;
   }
 
+  @Override
   public boolean hasNext() {
     return this.index < this.bookshelf.getLength();
   }
 
+  @Override
   public Book next() {
     Book book = this.bookshelf.getBookAt(this.index);
     this.index++;
