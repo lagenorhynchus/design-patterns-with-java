@@ -1,4 +1,4 @@
-package chapter02
+package s_chapter02
 
 import java.io.{ FileInputStream, FileOutputStream }
 import java.util.Properties

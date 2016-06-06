@@ -1,4 +1,4 @@
-(ns chapter02.core
+(ns c-chapter02.core
   (:import [java.io FileInputStream
                     FileOutputStream]
            [java.util Properties]))

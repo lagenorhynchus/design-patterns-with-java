@@ -1,4 +1,4 @@
-(ns chapter01.core)
+(ns c-chapter01.core)
 
 (defrecord Book [name])
 

@@ -1,4 +1,4 @@
-package chapter01
+package s_chapter01
 
 case class Book(name: String)
 
